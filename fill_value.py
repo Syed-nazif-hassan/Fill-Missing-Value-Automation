@@ -51,8 +51,8 @@ def specific_columns(dataframe, columns):
 
     # Check if the list is empty
     if not columns:
-        print("\nList is empty.")
-        return
+        print("\nList is empty.\n\nFinished")
+        return dataframe
 
     # Loop through each column provided in the arguments
     for column in columns:
